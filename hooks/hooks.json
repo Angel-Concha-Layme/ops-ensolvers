@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__.*chrome-devtools.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/approve-chrome-devtools.js\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ops-ensolvers",
+  "description": "Claude Code plugin that automatically fills in your Ensolvers OPS monthly work log.",
+  "author": {
+    "name": "Angel Concha"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ensolvers",
+    "ops",
+    "work-log",
+    "timesheet",
+    "browser-automation",
+    "chrome-devtools"
+  ]
+}

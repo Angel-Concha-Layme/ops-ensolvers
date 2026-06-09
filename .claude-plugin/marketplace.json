@@ -1,0 +1,29 @@
+{
+  "name": "ops-ensolvers",
+  "owner": {
+    "name": "Angel Concha"
+  },
+  "metadata": {
+    "description": "Automate filling your Ensolvers OPS work log from Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "ops-ensolvers",
+      "source": "./",
+      "description": "Claude Code plugin that automatically fills in your Ensolvers OPS monthly work log.",
+      "author": {
+        "name": "Angel Concha"
+      },
+      "keywords": [
+        "ensolvers",
+        "ops",
+        "work-log",
+        "timesheet",
+        "browser-automation",
+        "chrome-devtools"
+      ],
+      "category": "productivity",
+      "strict": false
+    }
+  ]
+}
